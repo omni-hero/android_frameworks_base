@@ -4560,6 +4560,7 @@ public final class Settings {
          * @hide
          */
         public static final String QS_QUICKBAR_COLUMNS = "qs_quickbar_columns";
+        public static final String BUTTON_HOME_WAKE_SCREEN = "button_home_wake_screen";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
@@ -4816,6 +4817,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(QS_QUICKBAR_COLUMNS);
             PRIVATE_SETTINGS.add(FINGERPRINT_SUCCESS_VIB);
             PRIVATE_SETTINGS.add(STATUS_BAR_QUICK_QS_PULLDOWN);
+            PRIVATE_SETTINGS.add(BUTTON_HOME_WAKE_SCREEN);
         }
 
         /**
